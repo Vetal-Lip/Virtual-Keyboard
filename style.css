@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.keyboardSection{
+    background-color: #000000;
+
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.textareaField{
+    width: 70%;
+    height: 200px;
+    margin: 2% 156px;
+}
+
+.keyboardBox{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.description{
+    background-color: #fff;
+    width: 70%;
+    margin: 10px auto;
+    height: 80px;
+    font-size: 20px;
+    
+}
+
+.button{
+    display: block;
+    font-size: 20px;
+    width: 50px;
+    margin: 2px;
+    padding: 10px;
+    background-color:  rgb(0, 128, 128);
+}
+
+.button:hover{
+    cursor: pointer;
+    /* background-color: blueviolet; */
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#Backspace{
+    width: 120px;
+}
+
+#Tab,
+#Backslash{
+    width: 70px;
+}
+#CapsLock,
+#Enter{
+    width: 90px;
+}
+#ShiftLeft{
+    width: 100px;
+}
+#ShiftRight{
+    width: 70px;
+}
+#ControlLeft,
+#MetaLeft,
+#AltLeft,
+#AltRight,
+#ControlRight{
+    width: 65px;
+}
+
+#Space{
+    width: 300px;
+}
+
+.active{
+    background-color: blueviolet;
+}
