@@ -215,11 +215,9 @@ document.addEventListener('keyup', function (event) {
 // =================================================================
 
 // ==================== Mouse EVENT ==============================
-document.addEventListener('click', function (event) {
-    
-    event.target.classList.contains("button") === true? addValueInTextarea(event.target.innerText):""
-    addActiveClassButton(event.target.id)
-    removeActiveClassButton(event.target.id)
+document.addEventListener('click', function (e) {    
+    e.target.classList.contains("button") === true? addValueInTextarea(e.target.innerText):""
+    addActiveClassButton(e.target.id)
+    removeActiveClassButton(e.target.id)
 })
-
 // ===============================================================
